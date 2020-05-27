@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            Welcome
+        </title>
+        <link href="Game.css" rel="stylesheet" />
+        <script src="jquery-3.2.1.js"></script>
+        <script src="Game.js"></script>
+   
+        <script>
+            
+            $(function(){
+
+              document.querySelector("#btnsubmit").onclick = function() {
+                input = document.getElementsByName("username")[0].value;
+                localStorage.setItem("username", input);
+                }
+            })
+        </script>
+    </head>
+    <body>
+        <div class="menu">
+            <img src="Images/play.jpg" />
+            <form  action="Game.html">
+             <label>  User Name  </label></br><input type="text" name="username" />
+                <input type="submit" id="btnsubmit" value="PLAY"/>
+            </form>
+        </div>
+       
+    </body>
+</html>

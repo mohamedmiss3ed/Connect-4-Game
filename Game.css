@@ -1,0 +1,101 @@
+
+
+body{
+    overflow: hidden;
+    background-color:darkred;
+}
+#container{
+    width:80%;
+     height:80%;
+     margin: auto;  
+}
+.box{
+  position: absolute;
+  width: 300px;
+  height: 550px;
+  border:red 5px groove ;
+  border-radius: 10px;
+  top: 120px;
+}
+.right{
+  right: 10%;
+  
+
+}
+
+.left{
+  left: 10%;
+}
+div{
+  text-align: center;
+  margin: initial;
+  color:white;
+}
+img{
+  background-color:darkred ;
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+table{
+  
+  position: relative;
+  width: 650px;
+  height: 700px;
+  margin: auto;
+  text-align: center;
+  padding:10px;
+  border-spacing: 20px;
+}
+
+td{
+  border-radius:50%;
+  background-color: white;
+  
+}
+input[type=text] {
+  border-radius: 4px;
+  width: 50%;
+  height: 8%;
+  padding: 12px 20px;
+  margin: 50px 0;
+  border: 3px solid #555;
+}
+input[type=submit]{
+
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: auto;
+  cursor: pointer;
+  width: 50%;
+  text-align: center;
+}
+label{
+  color: whitesmoke;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+#tr0 td{
+  visibility: hidden;
+  
+}
+
+.red{
+  background:#d96666;
+}
+.yellow{
+  background:yellow;
+}
+button{
+  background-color: gray;
+  color: white;
+  width:200px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 300px;
+
+}
